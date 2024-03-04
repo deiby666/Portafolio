@@ -125,7 +125,22 @@ main{
 
 .proyect{
     width: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.proyect img{
+    border-radius: 10px;
+}
+
+.proyect h3{
+    color: black;
 }
 
 .proyect img{
